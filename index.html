@@ -123,7 +123,7 @@
 <body>
     <header>
        
-        <b>MOTOR OD CLAIMS</b>
+       <b id="dynamicTitle">MOTOR OD CLAIMS</b>
         <button onclick="loadTable('table1')">EXT</button>
         <button onclick="loadTable('table2')">Bagicclaim</button>
         <button onclick="loadTable('table3')">Webservices</button>
@@ -407,6 +407,29 @@
             }
         }
     </script>
+     <script>
+        // Array of colorful titles
+        const colorfulTitles = [
+        "#FF5733", // Orange
+        "#33FF57", // Green
+        "#5733FF", // Purple
+        "#FF3357", // Pink
+        "#FFD700", // Gold
+        "#00CED1", // Dark Turquoise
+        "#FF6347", // Tomato
+        "#8A2BE2"  // Blue Violet
+          // Add more colors as needed
+        ];
     
+        let currentIndex = 0;
+    
+        function changeTitle() {
+          document.getElementById('dynamicTitle').style.color = colorfulTitles[currentIndex];
+          currentIndex = (currentIndex + 1) % colorfulTitles.length;
+        }
+    
+        // Change title every 10 seconds
+        setInterval(changeTitle, 1000);
+      </script>
 </body>
 </html>
