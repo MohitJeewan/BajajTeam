@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        header b {
+             color: hsl(0, 0%, 100%); /* Set the text color to white */
+             padding: 10px;
+             text-align: left;
+             font-size: 150%;
+}
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #tableContainer {
+            margin: 20px;
+        }
+        #table1 {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+        }
+
+        /* Add border to table header cells */
+        #table1 th {
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Add border to table data cells */
+        #table1 td {
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+            padding: 8px;
+            text-align: left;
+        }
+        #table2 {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+        }
+
+        /* Add border to table header cells */
+        #table2 th {
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Add border to table data cells */
+        #table2 td {
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+            padding: 8px;
+            text-align: left;
+        }
+        #table3 {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+        }
+
+        /* Add border to table header cells */
+        #table3 th {
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Add border to table data cells */
+        #table3 td {
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+            padding: 8px;
+            text-align: left;
+        }
+        #table4 {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+        }
+
+        /* Add border to table header cells */
+        #table4 th {
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Add border to table data cells */
+        #table4 td {
+            border: 1px solid #ddd; /* You can customize the color and thickness */
+            padding: 8px;
+            text-align: left;
+        }
+        
+      
+    </style>
+</head>
+<body>
+    <header>
+       
+        <b>MOTOR OD CLAIMS</b>
+        <button onclick="loadTable('table1')">EXT</button>
+        <button onclick="loadTable('table2')">Bagicclaim</button>
+        <button onclick="loadTable('table3')">Webservices</button>
+        <button onclick="loadTable('table4')">Team Member</button>
+    </header>
+<center ><h1>&#128526; Welcom to Bagic &#128526;</h1></center>
+    <div id="tableContainer">
+        <!-- Table 1 -->
+        <table id="table1" style="display: none;">
+            <tr>
+                <th>Project Name</th>
+            
+            </tr>
+            <tr>
+                <td>BjazCkycService</td>
+                
+            </tr>
+            <tr>
+                <td>BjazFactSheetApp</td>
+                
+            </tr>
+            <tr>
+                <td>BjazGiftoVehiclePartDtls</td>
+              
+            </tr>
+            <tr>
+                <td>BjazSmlClient</td>
+                
+            </tr>
+            <tr>
+                <td>BjazTwoWheeler</td>
+              
+            </tr>
+            <tr>
+                <td>BjazVolvoClientWs</td>
+              
+            </tr>
+            <tr>
+                <td>BMWClient</td>
+               
+            </tr>
+            <tr>
+                <td>CitroenClaimWS</td>
+                
+            </tr>
+            <tr>
+                <td>FordClientCxf</td>
+              
+            </tr>
+            <tr>
+                <td>HyundaiPhaseII</td>
+               
+            </tr>
+            <tr>
+                <td>IIBOdClaimsWSNew</td>
+              
+            </tr>
+            <tr>
+                <td>JcbClient</td>
+               
+            </tr>
+            <tr>
+                <td>KiaClaimService</td>
+              
+            </tr>
+            <tr>
+                <td>KiaClaimServiceWS</td>
+              
+            </tr>
+            <tr>
+                <td>MahindraClient</td>
+               
+            </tr>
+            <tr>
+                <td>SCBPaymentWS</td>
+               
+            </tr>
+            <tr>
+                <td>TataClientCxf</td>
+              
+            </tr>
+
+            <tr>
+                <td>ToyotoClientWS</td>
+               
+          
+
+            <!-- Add more rows as needed -->
+        </table>
+    
+        <!-- Table 2 -->
+        <table id="table2" style="display: none;">
+           
+            <tr>
+                <th>Project Name</th>
+           
+            </tr>
+            <tr>
+                <td>BjazAutoLetterGenration</td>
+             
+            </tr>
+            <tr>
+                <td>BjazBagicPay</td>
+               
+            </tr>
+            <tr>
+                <td>BjazCustomerLoyalty</td>
+              
+            </tr>
+            <tr>
+                <td>BjazFactSheetApp</td>
+              
+            </tr>
+            <tr>
+                <td>BjazHyundaiWS</td>
+             
+            </tr>
+            <tr>
+                <td>BjazMGClaimWS</td>
+              
+            </tr>
+
+            <tr>
+                <td>BjazRSA</td>
+                
+            </tr> 
+             <tr>
+                <td>BjazVolkswaganWS</td>
+                
+            </tr>
+            <tr>
+                <td>BjazYamahaWS</td>
+               
+            </tr>
+            <tr>
+                <td>IIBOdClaimsWSNew</td>
+              
+            </tr>
+            <tr>
+                <td>REClientWS</td>
+               
+            </tr>
+            <tr>
+                <td>WorkshopStatusDocs</td>
+             
+            </tr>
+            
+        </table>
+    
+        <!-- Table 3 -->
+        
+        <table id="table3" style="display: none;">
+            <tr>
+                <th>Project Name</th>
+              
+            
+            </tr>
+            <tr>
+                <td>MarutiClient</td>
+               
+            </tr>
+            <tr>
+                <td>Motor4WWCMWS</td>
+
+            </tr>
+        </table>
+         <!-- Table 4 -->
+         <table id="table4" style="display: none;">
+            <tr>
+                <th>Employee Name</th>
+                <th>Designation</th>
+                
+                
+            </tr>
+            <tr>
+                <td>Sagar Nerurkar</td>
+                <td>Senior Manager</td>
+               
+            </tr>
+            <tr>
+                <td>Shivkumar Sethuraman</td>
+                <td>Manager</td>
+               
+            </tr>
+            <tr>
+                <td>Harsh Bardhan</td>
+                <td>Manager</td>
+              
+            </tr>
+            <tr>
+                <td>Nikit Chaudhary</td>
+                <td>Business Analyst</td>
+               
+            </tr>
+            <tr>
+                <td>Ibraheem Shaik</td>
+                <td>Team Lead</td>
+              
+            </tr>
+            <tr>
+                <td>Vishal Kale</td>
+                <td>Team Lead</td>
+                
+            </tr>
+            <tr>
+                <td>Mohammed Mohsin</td>
+                <td>Team Lead</td>
+               
+            </tr>
+            <tr>
+                <td>Rushikesh Gande</td>
+                <td>Team Lead</td>
+               
+            </tr>
+            <tr>
+                <td>Kasim Shaikh</td>
+                <td>Senior Java Developer</td>
+               
+            </tr>
+            <tr>
+                <td>Mohit Jeewan</td>
+                <td>Java Developer</td>
+                
+            </tr>
+            <tr>
+                <td>Gauri Chavan</td>
+                <td>Backend Developer</td>
+              
+            </tr>
+            <tr>
+                <td>Mandalapu Dasaradha</td>
+                <td>Backend Developer</td>
+              
+            </tr>
+            <tr>
+                <td>Manas Tole</td>
+                <td>Backend Support</td>
+               
+            </tr>
+            <tr>
+                <td>Jyotsana Saindhani</td>
+                <td>Backend Support</td>
+                
+            </tr>
+            <tr>
+                <td>Venkatesh Gurram</td>
+                <td>Backend Support</td>
+                
+            </tr>
+            <tr>
+                <td>Harshal Pardeshi</td>
+                <td>Customer Support Team</td>
+                
+            </tr>
+            <tr>
+                <td>Rachana Peshave</td>
+                <td>Customer Support Team</td>
+                
+            </tr>
+            <tr>
+                <td>Saurabh Shinde</td>
+                <td>Customer Support Team</td>
+                
+            </tr>
+            </table>
+           
+    </div>
+    
+
+    <script>
+        function loadTable(tableId) {
+            // Hide all tables
+            document.querySelectorAll('#tableContainer table').forEach(table => {
+                table.style.display = 'none';
+            });
+    
+            // Show the selected table
+            const selectedTable = document.getElementById(tableId);
+            if (selectedTable) {
+                selectedTable.style.display = 'table';
+            }
+        }
+    </script>
+    
+</body>
+</html>
